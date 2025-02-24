@@ -1,4 +1,4 @@
-# School API
+# Профильное задание Ruby on Rails Developer
 
 Простое API для управления данными о школах, классах и учениках.
 
@@ -14,18 +14,18 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/school-api.git
-   cd school-api
+   git clone https://github.com/stepantishhen/testcase_vk.git
+   cd testcase_vk
    ```
 
 2. Запустите приложение с помощью Docker Compose:
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 3. Создайте и наполните базу данных:
    ```bash
-   docker-compose exec web rails db:create db:migrate db:seed
+   docker compose exec web bundle exec rails db:create db:migrate db:seed
    ```
 
 ## Тестовые данные
